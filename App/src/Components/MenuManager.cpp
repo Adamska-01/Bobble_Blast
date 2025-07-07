@@ -31,9 +31,14 @@ void MenuManager::Update(float deltaTime)
 		{
 			currentMenu->NavigateDown();
 		}
-		if (Input::IsButtonPressed(PlayerInputSlot::PLAYER_1, "Jump"))
+		if (Input::IsButtonPressed(PlayerInputSlot::PLAYER_1, "Jump")
+			|| Input::IsButtonPressed(PlayerInputSlot::PLAYER_1, "Confirm"))
 		{
 			currentMenu->Confirm();
+		}
+		if (Input::IsButtonPressed(PlayerInputSlot::PLAYER_1, "Back"))
+		{
+			currentMenu->GoBack();
 		}
 	}
 }
