@@ -5,6 +5,7 @@
 #include "Constants/AssetPaths.h"
 #include "Constants/BobbleConstants.h"
 #include "Constants/TiledObjectGroupNames.h"
+#include <algorithm>
 #include <Components/Audio/AudioSource.h>
 #include <Components/GridCeiling.h>
 #include <Components/MenuManager.h>
@@ -28,6 +29,8 @@ GameManager::GameManager()
 	inputAllowed(false)
 {
 	levelSources = FileSystemUtils::GetFilesInFolder(AssetPaths::Folders::LEVELS.path.string());
+
+	std::sort(levelSources.begin(), levelSources.end());
 }
 
 void GameManager::Init()
