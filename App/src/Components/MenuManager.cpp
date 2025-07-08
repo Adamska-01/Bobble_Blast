@@ -1,4 +1,5 @@
 #include "Components/MenuManager.h"
+#include <algorithm>
 #include <SubSystems/Input/Input.h>
 
 
