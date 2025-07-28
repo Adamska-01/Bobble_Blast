@@ -1,4 +1,11 @@
 # Bobble Blast
+<table>
+  <tr>
+    <td><img src="https://img.itch.zone/aW1hZ2UvMTUyMjg4MS8yMjA0MTk0NS5wbmc=/original/YP9U3R.png" alt="Screenshot 1" width="500"/></td>
+    <td><img src="https://img.itch.zone/aW1hZ2UvMTUyMjg4MS8yMjA0MjAxNS5wbmc=/original/wNXX3p.png" alt="Screenshot 2" width="500"/></td>
+  </tr>
+</table>
+
 A Puzzle Bobble-inspired arcade game built with the [DeadFrame2D](https://github.com/Adamska-01/DeadFrame2D) engine. Match and pop bobbles, and challenge your precision and strategy in this fast-paced bobble shooter!
 
 ### 🕹️ Gameplay
